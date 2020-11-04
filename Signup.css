@@ -1,0 +1,118 @@
+.container {
+    margin: 15%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.container form .formheade .title {
+    font-size: 3rem;
+}
+
+.container form .formheade p {
+    font-weight: 400;
+    word-spacing: 3px;
+    margin-bottom: 5vmin;
+}
+
+.container form .formheade a {
+    text-decoration: none !important;
+    color: rgb(18, 122, 122);
+    font-size: 1.4rem;
+}
+
+.container form .inputs input {
+    width: 100%;
+    height: 47px;
+    border: tomato 3px solid;
+    border-radius: 5px;
+    margin-top: 1vmin;
+    margin-bottom: 4vmin;
+}
+
+.container form .inputs label {
+    font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: teal;
+    font-weight: bolder;
+    display: inline-block;
+    width: 0.5em;
+    margin-left: -1em;
+    margin-right: 5px;
+    font-size: 40px;
+}
+
+#check {
+    transform: scale(2);
+    margin-right: 5px;
+    background-color: teal;
+}
+
+.container form .checkbox label {
+    font-size: 1.3rem;
+    word-spacing: 5px;
+}
+
+.container form button {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(5, 117, 117);
+    border-radius: 5px;
+}
+
+.container form button:hover {
+    background-color: rgb(8, 97, 97);
+}
+
+.container .lp {
+    margin-top: 5vmin;
+    font-size: 1.3rem;
+}
+
+.container .lp a {
+    color: teal;
+}
+
+.footer {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.footer a {
+    color: rgba(0, 0, 0, 0.466);
+}
+
+@media only screen and (max-width:600px) {
+    h1 {
+        font-size: 23px !important;
+    }
+    p {
+        font-size: 15px;
+    }
+    a {
+        font-size: 15px !important;
+    }
+    li {
+        font-size: 15px !important;
+    }
+    button {
+        font-size: 20px;
+    }
+    label {
+        font-size: 17px !important;
+    }
+    .inputs input {
+        height: 30px !important;
+    }
+}

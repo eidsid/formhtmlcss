@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./Signup.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="#">
+            <div class="formheade">
+                <h1 class="title">Welcome to mailchimp</h1>
+                <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp’s Marketing Platform. Already have an account? <a href="">Log in</a></p>
+            </div>
+            <div class="inputs">
+                <label for="Email">Email</label> <input type="email" id="Email" pattern='+@tutsplus\.com|.+@envato\.com' required><br>
+                <label for="username">Username</label>
+                <input type="text" id="username" pattern="[a-zA-Z0-9]+" minlength="4" maxlength="10" required>
+                <label for="password">password</label> <input type="password" id="password" minlength="8" maxlength="15" required pattern="[a-zA-Z0-9]+"><br>
+
+                <ul>
+                    <li> One lowercase character </li>
+                    <li> One upperrcase character </li>
+                    <li>One number</li>
+                    <li>One special chareacter</li>
+                    <li>8 characters minimum</li>
+
+                </ul>
+
+
+
+
+            </div>
+
+            <p> <input type="checkbox" id="check"> I dont want to resive emails about new mailchimp products best practices or spacisl offers</p>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p class="lp"> By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.
+        </p>
+    </div>
+</body>
+<footer>
+    <div class="footer">
+        <p> ©2001–2020 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. <a href="">Cookie Preferences</a>,<a href="">Terms</a><a href="">Privacy</a>.
+        </p>
+    </div>
+</footer>
+
+</html>
